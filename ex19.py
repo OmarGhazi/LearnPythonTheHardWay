@@ -26,3 +26,15 @@ cheese_and_crackers(10+20, 5+6)
 # function
 print("And we can combine the two, variables and math")
 cheese_and_crackers(amount_of_cheese+100, amount_of_crackers+1000)
+
+
+def testfunction(first_arg, second_arg):
+    print(f"Addition: {first_arg}+{second_arg} = ", first_arg+second_arg)
+    print(f"Subtraction: {first_arg}-{second_arg} = ", first_arg-second_arg)
+    print(f"Multiplication: {first_arg}*{second_arg} = ", first_arg*second_arg)
+    print(f"Division: {first_arg}/{second_arg} = ", first_arg/second_arg)
+
+print("Now lets do custom math using two numbers")
+user_first = int(input("Enter first number: "))
+user_second = int(input("Enter second number: "))
+testfunction(user_first, user_second)
