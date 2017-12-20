@@ -96,7 +96,7 @@ print(formatter.format(
 
 `input()` command allows you to gather input from the user and you can assign `input()` to a variable.
 
-If however, you want to do math with the user entered data, you will need to pass the `input()` within an `int()` like `x=int(input())` which gets the number as a string from `input()` then converts it to an integer using `int()`
+If however, you want to do math with the user entered data, you will need to pass the `input()` within an `int()` like `x=int(input())` which gets the number as a string from `input()` then converts it to an integer using `int()`.
 
 **Ex12: Prompting People**
 
